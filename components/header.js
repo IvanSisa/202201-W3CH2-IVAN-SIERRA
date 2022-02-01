@@ -8,18 +8,20 @@ export class Header extends Component {
         super();
   
         this.template = `
+       
         <h1 class="center">${title}</h1>
         <div class="flex">
-            <button>Dashboard</button>
-            <button>Heroes</button>
+            <button><a href="">Dashboard</a></button>
+            <button><a href="">Heroes</a></button>
         </div>
         <h2 class="center">${secondTitle}</h2>
         <div class="flex">
-            <button>Narco</button>
-            <button>Bombasto</button>
-            <button>Celeritas</button>
-            <button>Magneta</button>
-        </div>`;
+            <button><a href="">Narco</a></button>
+            <button><a href="">Bombasto</a></button>
+            <button><a href="">Celeritas</a></button>
+            <button><a href="">Magneta</a></button>
+        </div>
+      `;
     }
 
 
