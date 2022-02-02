@@ -12,7 +12,7 @@ export class Header extends Component {
         <h1 class="center">${title}</h1>
         <div class="flex">
             <button><a href="">Dashboard</a></button>
-            <button><a href="">Heroes</a></button>
+            <button><a href="heroes.html">Heroes</a></button>
         </div>
         <h2 class="center">${secondTitle}</h2>
         <div class="flex">
